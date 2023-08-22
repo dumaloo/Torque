@@ -68,3 +68,17 @@ body {
     flex-direction: column;
     width: 33%;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.menu{
+    list-style-type: none;
+    padding: 10px 10px;
+    display: flex;
+}
+
+.item {
+    padding: 10px;
+  }
