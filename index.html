@@ -4,13 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 1</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Cinzel&family=Merriweather&family=Sacramento&family=Source+Sans+Pro&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">        display: block;
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Barlow&family=Cinzel&family=Merriweather&family=Sacramento&family=Source+Sans+Pro&family=Yellowtail&display=swap" 
+    rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"   />
 </head>
-<body>
-
+<style>
+    *{
+        background-color: black;
+    }
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      ul.topnav li {
+        float: right;
+    }
+      
+      ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      ul.topnav li a button{
+        color: white;
+        background-color: lightblue;
+      }
+      
+      
+      @media screen and (max-width: 600px) {
+        ul.topnav li {float: none;}
+      }
+      </style>
+      <body>
+      <ul class="topnav">
+        <li><a href="#StartCoding"><button class="button">Start Coding</button></a></li>
+        <li><a href="#latest">Latest</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#trends">Trends</a></li>
+      </ul>
+      
 </body>
 </html>
